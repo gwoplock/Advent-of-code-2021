@@ -9,7 +9,7 @@
             "type": "lldb",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": ["${workspaceFolder}/stdin.txt"],
+            "args": ["${workspaceFolder}/stdin.txt", "${workspaceFolder}/stdout.txt"],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
